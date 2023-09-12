@@ -1,3 +1,7 @@
+#pragma once
+#ifndef _ACCESSLEVEL_HPP_
+#define _ACCESSLEVEL_HPP_
+
 
 namespace LockSystem
 {
@@ -13,3 +17,5 @@ namespace LockSystem
 
 
 } // namespace LockSystem
+
+#endif

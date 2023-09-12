@@ -23,6 +23,7 @@ namespace LockSystem
         {
             _hour = tp.get_hour();
             _minute = tp.get_minute();
+            return *this;
         }
         unsigned short get_all_in_minutes() const
         {

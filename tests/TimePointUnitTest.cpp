@@ -58,6 +58,8 @@ void correct_operators_work()
         tp2 >= tp1 && tp3 >= tp1 && tp3 >= tp2 && tp3 >= tp4 && !(tp1 >= tp2),
         "wrong grather or equivalent operator"
         );
+    tp4 = tp1;
+    UnitTest::assert_that(tp4 == tp1, "wrong assignment operator");
 }
 
 

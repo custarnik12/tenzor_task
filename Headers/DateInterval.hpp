@@ -27,6 +27,7 @@ namespace LockSystem
         {
             _left_date_point = di.get_left_date_point();
             _right_date_point = di.get_right_date_point();
+            return *this;
         }
     protected:
         virtual bool _is_satisfies(const DateTimePoint& date_time_point) const override

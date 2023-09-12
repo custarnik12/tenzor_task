@@ -23,6 +23,7 @@ namespace LockSystem
         {
             _month = dp.get_month();
             _day = dp.get_day();
+            return *this;
         }
         bool operator < (const DatePoint& date_point) const
         {

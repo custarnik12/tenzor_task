@@ -11,6 +11,7 @@ namespace LockSystem
 
     class ElectronicKey
     {
+    public:
         ElectronicKey():
         _access_level{AccessLevel::NOT_SPECIFIED}
         {}

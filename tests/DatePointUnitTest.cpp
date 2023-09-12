@@ -57,6 +57,8 @@ void correct_operators_work()
         dp2 >= dp1 && dp3 >= dp1 && dp3 >= dp2 && dp3 >= dp4 && !(dp1 >= dp2),
         "wrong grather or equivalent operator"
         );
+    dp4 = dp1;
+    UnitTest::assert_that(dp4 == dp1, "wrong assignment operator");
 }
 
 

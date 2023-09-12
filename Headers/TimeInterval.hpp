@@ -27,6 +27,7 @@ namespace LockSystem
         {
             _left_time_point = ti.get_left_time_point();
             _right_time_point = ti.get_right_time_point();
+            return *this;
         }
 
     protected:
